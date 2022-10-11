@@ -12,8 +12,8 @@ const About = () => {
     });
   }, [])
   return (
-    <div className="mt-16">
-      <h1 className="header-text">About Me</h1>
+    <div className="w-[100%] bg-black">
+      <h1 className="header-text pt-10">About Me</h1>
       <div className="content text-center sm:text-[18px] text-[16px] 2xl:px-28 px-6" data-aos="zoom-in">
         <p>
           Hi, My name is Akinola Demilade John I'm a frontend developer based in Nigeria.I am passionate about building

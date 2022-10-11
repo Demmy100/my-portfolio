@@ -11,8 +11,8 @@ const Skills = () => {
         });
       }, [])
   return (
-    <div id='skills' className='mt-10 w-[100%] bg-black'>
-      <h1 className='header-text'>Skills</h1>
+    <div id='skills' className='w-[100%] bg-black'>
+      <h1 className='header-text pt-10'>Skills</h1>
       <div className="skill">
         <div className="skill__container has-gradient grad-box" data-aos="fade-down">
             <div className="skill__card">
