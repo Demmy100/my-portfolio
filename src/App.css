@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'SPACEBAR', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'SPACEBAR', sans-serif;
+}
+
+.header-text::after {
+  content: '';
+    position: absolute;
+    bottom: -.8rem;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    width: max(200px, 10%);
+    height: 5px;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background-size: 400% 400%;
+    -webkit-animation: animatedgradient 5s ease infinite;
+    -moz-animation: animatedgradient 5s ease infinite;
+    animation: animatedgradient 5s ease infinite;
+}
+
+.header-text:hover {
+  background: linear-gradient(0deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animatedgradient 5s ease infinite;
+  -moz-animation: animatedgradient 5s ease infinite;
+  animation: animatedgradient 5s ease infinite;
+}
+
+.nav-items {
+  font-family: 'SPACEBAR', sans-serif;
+  font-weight: 400;
+}
+
+.nav-items:hover {
+  background: linear-gradient(0deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animatedgradient 5s ease infinite;
+  -moz-animation: animatedgradient 5s ease infinite;
+  animation: animatedgradient 5s ease infinite;
+}
+
+
+.logo {
+  font-family: 'SPACEBAR', sans-serif;
+  font-weight: 400;
+}
+
+.has-gradient {
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  -webkit-animation: animatedgradient 5s ease infinite;
+  -moz-animation: animatedgradient 5s ease infinite;
+  animation: animatedgradient 5s ease infinite;
+}
+
+.grad-bar {
+  width: 95%;
+  margin: auto;
+  height: 2px;
+  background-size: 400% 400%;
+}
+
+.grad-box {
+  background-size: 300% 300%;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  gap: 2rem;
+  margin-top: 50px;
+}
+
+.skill__container {
+  padding: 4px;
+  height: 50px;
+  width: 200px;
+  margin: auto;
+}
+
+.skill__card {
+  background-color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.skill__card p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.work__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.work__link {
+  text-decoration: none;
+  font-family: 'SPACEBAR', sans-serif;
+  border: 1px solid #bbb;
+  padding: 0.5rem 1rem;
+}
+
+.work__link:hover {
+  background: linear-gradient(0deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animatedgradient 5s ease infinite;
+  -moz-animation: animatedgradient 5s ease infinite;
+  animation: animatedgradient 5s ease infinite;
+}
+
+.card {
+  cursor: pointer;
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+
+@-webkit-keyframes animatedgradient {
+  0% {
+      background-position: 0% 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes animatedgradient {
+  0% {
+      background-position: 0% 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+@keyframes animatedgradient {
+  0% {
+      background-position: 0% 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0% 50%
+  }
+}
