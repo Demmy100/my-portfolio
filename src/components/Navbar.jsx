@@ -17,7 +17,7 @@ const Navbar = () => {
     <header>
       <nav className="flex relative justify-between items-center w-[100%] 2xl:px-12 px-8 py-8">
         <div className="logo text-[15px] cursor-pointer">demmydev</div>
-        <ul className="list-none sm:flex hidden gap-8">
+        <ul className="list-none md:flex hidden gap-8">
           <Link spy={true} smooth={true} to="about">
             <li
               className="nav-items cursor-pointer text-[20px] text-white"
@@ -56,7 +56,7 @@ const Navbar = () => {
           </Link>
         </ul>
         {/*mobile */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex flex-1 justify-end items-center">
           {toggle ? (
             <CloseIcon
               style={{ fontSize: "2rem", cursor: "pointer" }}
