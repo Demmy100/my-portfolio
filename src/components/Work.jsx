@@ -55,11 +55,11 @@ const Work = () => {
             <img src={demmyStore} alt="" className="w-[100%] h-[100%]"/>
           </div>
           <div className="flex items-center justify-center gap-6 card-back">
-            <a href="https://modern-bank-app-landing-page.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
+            <a href="https://demmy-store.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
               DEMO
             </a>
             <a
-              href="https://github.com/Demmy100/Hoobank-landing-page"
+              href="https://github.com/Demmy100/demmyStore"
               target="_blank"
               rel="noopener noreferrer" className="work__link"
             >
@@ -75,11 +75,11 @@ const Work = () => {
             <img src={hotelImage} alt="" className="w-[100%] h-[100%]"/>
           </div>
           <div className="flex items-center justify-center gap-6 card-back">
-            <a href="https://modern-bank-app-landing-page.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
+            <a href="https://demmy-booking.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
               DEMO
             </a>
             <a
-              href="https://github.com/Demmy100/Hoobank-landing-page"
+              href="https://github.com/Demmy100/Hotel-booking"
               target="_blank"
               rel="noopener noreferrer" className="work__link"
             >
@@ -95,11 +95,11 @@ const Work = () => {
             <img src={photoEditor} alt="" className="w-[100%] h-[100%]"/>
           </div>
           <div className="flex items-center justify-center gap-6 card-back">
-            <a href="https://modern-bank-app-landing-page.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
+            <a href="https://demmy-editor.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
               DEMO
             </a>
             <a
-              href="https://github.com/Demmy100/Hoobank-landing-page"
+              href="https://github.com/Demmy100/photo-editor"
               target="_blank"
               rel="noopener noreferrer" className="work__link"
             >
@@ -115,11 +115,11 @@ const Work = () => {
             <img src={weatherImage} alt="" className="w-[100%] h-[100%]"/>
           </div>
           <div className="flex items-center justify-center gap-6 card-back">
-            <a href="https://modern-bank-app-landing-page.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
+            <a href="https://demmy-weather.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
               DEMO
             </a>
             <a
-              href="https://github.com/Demmy100/Hoobank-landing-page"
+              href="https://github.com/Demmy100/weather-app"
               target="_blank"
               rel="noopener noreferrer" className="work__link"
             >
@@ -135,11 +135,11 @@ const Work = () => {
             <img src={quizImage} alt="" className="w-[100%] h-[100%]"/>
           </div>
           <div className="flex items-center justify-center gap-6 card-back">
-            <a href="https://modern-bank-app-landing-page.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
+            <a href="https://demmy-quiz.netlify.app/" target="_blank" rel="noopener noreferrer" className="work__link">
               DEMO
             </a>
             <a
-              href="https://github.com/Demmy100/Hoobank-landing-page"
+              href="https://github.com/Demmy100/Quiz-App"
               target="_blank"
               rel="noopener noreferrer" className="work__link"
             >
